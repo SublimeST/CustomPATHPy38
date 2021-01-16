@@ -1,0 +1,10 @@
+version: 2.1
+jobs:
+  build:
+    docker:
+      - image: sublimest/sublime-plugin-cienv:latest
+    resource_class: small
+    steps:
+      - checkout
+      - run: poetry install
+      - run: poetry run inv lint
