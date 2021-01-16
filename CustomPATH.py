@@ -21,8 +21,10 @@ def plugin_loaded():
     settings.clear_on_change(ON_CHANGE_HANDLER_KEY)
     settings.add_on_change(ON_CHANGE_HANDLER_KEY, plugin_loaded)
 
-    path = settings.get("PATH", "")
+    paths = settings.get("PATHS", [])
+    path = settings.get("PATH", "") + os.pathsep.join(paths)
     if len(path) == 0:
+        LOGGER.info("No modificationms to PATH")
         return
 
     original_path = os.environ.get(

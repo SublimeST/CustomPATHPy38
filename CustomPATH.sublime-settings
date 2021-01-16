@@ -2,5 +2,6 @@
     "override": false,
     "append_front": false,
     // Path to add
-    "PATH":""
+    "PATH":"",
+    "PATHS": []
 }
