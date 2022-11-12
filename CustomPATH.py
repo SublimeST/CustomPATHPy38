@@ -1,7 +1,7 @@
 import logging
 import os
 
-import better_settings
+from .libs import better_settings
 import sublime_plugin
 
 PLUGIN_ID = "CustomPATH"
@@ -56,7 +56,7 @@ def plugin_unloaded():
     _load_settings().clear_on_change(ON_CHANGE_HANDLER_KEY)
 
 
-class CustomPathOpenSettings(sublime_plugin.WindowCommand):
+class CustomPath38OpenSettings(sublime_plugin.WindowCommand):
     def __init__(self, *args, **kwargs):
         sublime_plugin.WindowCommand.__init__(self, *args, **kwargs)
 

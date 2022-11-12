@@ -1,8 +1,0 @@
-{
-    "*": {
-        "*": [
-            "package_setting_context",
-            "better_settings"
-        ]
-    }
-}

@@ -12,26 +12,26 @@
                 "children":
                 [
                     {
-                        "caption": "CustomPATH",
+                        "caption": "CustomPATH (3.8)",
                         "children":
                         [
                             {
-                                "command": "custom_path_open_settings",
+                                "command": "custom_path38_open_settings",
                                 "args": {"scope": "User"},
                                 "caption": "Settings – User"
                             },
                             {
-                                "command": "custom_path_open_settings",
+                                "command": "custom_path38_open_settings",
                                 "args": {"scope": "OS"},
                                 "caption": "Settings – Platform"
                             },
                             {
-                                "command": "custom_path_open_settings",
+                                "command": "custom_path38_open_settings",
                                 "args": {"scope": "Host"},
                                 "caption": "Settings – Host"
                             },
                             {
-                                "command": "custom_path_open_settings",
+                                "command": "custom_path38_open_settings",
                                 "args": {"scope": "Host/OS"},
                                 "caption": "Settings – Host/Platform"
                             }

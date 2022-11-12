@@ -1,6 +1,6 @@
 [
     {
-        "caption": "Preferences: CustomPATH Settings",
-        "command": "custom_path_open_settings"
+        "caption": "Preferences: CustomPATH (3.8) Settings",
+        "command": "custom_path38_open_settings"
     }
 ]
